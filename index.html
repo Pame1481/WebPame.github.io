@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Design Challenge: Landing page</title>
+  <link rel="stylesheet" type="text/css" href="style_landing.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand active" href="index.html"><span class="sr-only">(current)</span></a><div class= "boxed">
+                <h1>LATITUDE</h1>
+                </div></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Plot
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                          <a class="dropdown-item" href="hum.html">Humidity</a>
+                          <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+                          <a class="dropdown-item" href="wind_sp.html">Wind Speed</a>
+                        </div>
+                      </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>
+    
+        </div>
+      </nav>
+
+       <main class="container1">
+          <h2> <strong>SUMMARY: LATITUDE vs. X</strong></h2><hr/>
+         <section id="figure">
+            <img id="bio-image" src="/Images/Max Temperature vs City Latitude.png" alt="Max Temperature vs City Latitude">
+          </section>
+         <p>"For this weather project, we created a python script to show the weather conditions in more than 500 cities around the globe of varying distance from the equator (different latitudes). <br />
+           In order to develop this project, we used a simple Python Library and OpenWeather API to generate the dataframe of the numerous cities and we further used Matplolib to derive the relationship between Latitude and 4 factors (Max Temperature, Humidity, Cloudiness, Wind Speed). <br/>
+            This site provides four scatter plots of the variables mentioned before, a comparison of the variables and the data generated undertaking this project.</p>
+         </section>
+        </main>
+        <main>
+          <aside class="container2">
+            <h2><strong>VISUALIZATIONS</strong></h2>
+            <hr/>
+            <ul>
+                <img id="bio-image2" src="/Images/Max Temperature vs City Latitude.png" alt="Max Temperature vs City Latitude">
+                <img id="bio-image3" src="/Images/Humidity vs City Latitude.png" alt="Humidity vs City Latitude">
+                <img id="bio-image4" src="/Images/Cloudiness vs City Latitude.png" alt="Cloudiness vs City Latitude">
+                <img id="bio-image5" src="/Images/Wind Speed vs City Latitude.png" alt="Wind Speed vs City Latitude">
+              </ul>
+           </aside>
+        </main> 
+      
+</body>
+
+</html>

@@ -1,0 +1,356 @@
+/*
+ My Style CSS
+ */
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+  }
+  
+header {
+    background: whitesmoke;
+    font-size: 18px;
+    color: #333;
+    display: inline-block;
+    width: 1500px;
+    text-align: center;
+  }
+  
+  h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
+    text-align: right;
+  }
+  
+  h2 {
+    font-size: 80px;
+    color:rgb(67, 109, 248);
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    position: relative;
+  }
+
+  h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orangered;
+    font-style: oblique;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  /* Selecting elements by class */
+
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+    background: white;
+    float: right;
+  }
+  
+  .container1 {
+    width: 55%;
+    margin: 0;
+    background: whitesmoke;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 20px;
+    padding: 30px;
+
+  }
+  .container2 {
+    width: 40%;
+    margin: 0 auto;
+    background: whitesmoke;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 30px;
+  }
+
+  .container3 {
+    width: 95%;
+    margin: 0 auto;
+    background: whitesmoke;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px;
+  }
+
+  .boxed {
+    background:rgb(236, 2, 92);
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 80px;
+    border-radius: 3px;
+    position: relative;
+  }
+  
+  /* Selecting elements by ID */
+  
+  #figure {
+    position: relative;
+  }
+
+  #bio-image {
+    width: 250px;
+    height: 200px;
+    margin-right: 20px;
+    float: left;
+  }
+
+  #bio-image2 {
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+    float: left;
+  }
+
+  #bio-image3 {
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+    float: left;
+  }
+
+  #bio-image4 {
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    float: left;
+  }
+
+  #bio-image5 {
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+  }
+
+  #bio-image6 {
+    width: 750px;
+    height: 650px;
+    margin-right: 20px;
+    float: left;
+  }
+  #bio-image26 {
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+    float: left;
+    border-color: tomato;
+    border-width: 5px;
+    border-style: dotted;
+  }
+  #bio-image7 {
+    width: 750px;
+    height: 650px;
+    margin-right: 20px;
+    float: left;
+  }
+  #bio-image37 {
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+    float: left;
+    border-color: tomato;
+    border-width: 5px;
+    border-style: dotted;
+  }
+  #bio-image8 {
+    width: 750px;
+    height: 650px;
+    margin-right: 20px;
+    float: left;
+  }
+  #bio-image48 {
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    float: left;
+    border-color: tomato;
+    border-width: 5px;
+    border-style: dotted;
+  }
+  #bio-image9 {
+    width: 750px;
+    height: 650px;
+    margin-right: 20px;
+    float: left;
+  }
+  #bio-image59 {
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    border-color: tomato;
+    border-width: 5px;
+    border-style: dotted;
+  }
+  #bio-image2c {
+    width: 400px;
+    height: 350px;
+    margin-right: 100px;
+    margin-left: 100px;
+    float: left;
+  }
+  #bio-image3c {
+    width: 400px;
+    height: 350px;
+    margin-right: 100px;
+    margin-left: 100px;
+    float: left;
+  }
+  #bio-image4c {
+    width: 400px;
+    height: 350px;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    float: left;
+  }
+
+  #bio-image5c {
+    width: 400px;
+    height: 350px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    float: left;
+  }
+  .navbar li {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 3px;
+  }
+  
+  /* Getting rid of the default link styles here */
+  .navbar li a {
+    color: #000;
+    text-decoration: none;
+  }
+
+/* Here we define some styles that will ONLY be applied at screen sizes below 700 pixels */
+  
+@media (max-width: 700px) {
+    .container1 {
+      width: 100%; 
+      background: whitesmoke;
+      float:center;
+      margin: 0;
+      }
+    .container2 {
+      width: 100%;
+      margin-left: 5px;
+    }
+    .container3 {
+      width: 100%;
+    }
+  
+    #bio-image2 {
+      width: 140px;
+      height: 90px;
+      margin-right: 5px;
+      float: left;
+    }
+  
+    #bio-image3 {
+      width: 140px;
+      height: 90px;
+      margin-right: 5px;
+      float: left;
+    }
+  
+    #bio-image4 {
+      width: 140px;
+      height: 90px;
+      margin-left: 5px;
+      margin-top: 0px;
+      float: left;
+    }
+  
+    #bio-image5 {
+      width: 140px;
+      height: 90px;
+      margin-top: 0px;
+      margin-left: 5px;
+      float: left;
+    }
+    #bio-image6 {
+      width: 650px;
+      height: 600px;
+      margin-right: 5px;
+      float: left;
+    }
+    #bio-image26 {
+      width: 140px;
+      height: 90px;
+      margin-right: 5px;
+      float: left;
+    }
+    #bio-image7 {
+      width: 650px;
+      height: 600px;
+      margin-right: 5px;
+      float: left;
+    }
+    #bio-image37 {
+      width: 140px;
+      height: 90px;
+      margin-right: 5px;
+      float: left;
+    }
+    #bio-image8 {
+      width: 650px;
+      height: 600px;
+      margin-right: 5px;
+      float: left;
+    }
+    #bio-image48 {
+      width: 140px;
+      height: 90px;
+      margin-left: 5px;
+      margin-top: 0px;
+      float: left;
+      
+    }
+    #bio-image9 {
+      width: 650px;
+      height: 600px;
+      margin-right: 5px;
+      float: left;
+    }
+    #bio-image59 {
+      width: 140px;
+      height: 90px;
+      margin-left: 5px;
+      margin-top: 0px;
+      float: left;
+    }
+  }
+
+
